@@ -13,7 +13,7 @@ The only tool required is Urho3D.
     rm 1.7.1.tar.gz
     cd Urho3D-1.7.1
     ```
-    You can now either choose to build for Linux or MingW. Read more about building [here](https://urho3d.github.io/documentation/1.7.1/_building.html). (Personally, I have both installed. The first one to ~/Urho3D-1.7.1 and the second one to ~/Urho3D-1.7.1-mingw)
+    You can now either choose to build for Linux or MingW. Read more about building [here](https://urho3d.github.io/documentation/1.7.1/_building.html). (Personally, I have both installed. The first one to `~/Urho3D-1.7.1` and the second one to `~/Urho3D-1.7.1-mingw`)
     ```
     # Linux Build
     ./cmake_generic.sh . -DURHO3D_64BIT=1 -DURHO3D_ANGELSCRIPT=0 -DURHO3D_LUA=0 -URHO3D_PLAYER=0 -DURHO3D_SAMPLES=0
