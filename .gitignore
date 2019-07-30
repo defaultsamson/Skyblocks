@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# CUSTOM (added by me)
+bin/*
+!bin/Data
+!bin/CoreData
+CMakeFiles
+CMakeCache.txt
+Makefile
