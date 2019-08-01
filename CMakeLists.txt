@@ -21,8 +21,7 @@ include (UrhoCommon)
 # Define target name
 set (TARGET_NAME SkyBlocksExe)
 # Define source files
-# define_source_files ()
-add_subdirectory (src)
+define_source_files (GLOB_CPP_PATTERNS src/*.cpp GLOB_H_PATTERNS src/*.h RECURSE GROUP)
 # Setup target with resource copying
 setup_main_executable ()
 
